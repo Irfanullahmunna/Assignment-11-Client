@@ -9,7 +9,7 @@ const Review = () => {
       
       // data.image = loggedInUser.image
         console.log(loggedInUser);
-        const url = `http://localhost:5055/review`;
+        const url = `https://safe-ocean-09453.herokuapp.com/review`;
         fetch(url, {
           method: 'POST',
           headers: {

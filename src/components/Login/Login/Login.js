@@ -33,7 +33,7 @@ const Login = () => {
         var errorMessage = error.message;
         console.log(errorMessage);
       });
-    const url = `http://localhost:5055/users`;
+    const url = `https://safe-ocean-09453.herokuapp.com/users`;
     fetch(url, {
       method: 'POST',
       headers: {

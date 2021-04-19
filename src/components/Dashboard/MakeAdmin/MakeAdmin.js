@@ -7,7 +7,7 @@ const MakeAdmin = () => {
     const onSubmit = (data) => {
         data.roll = "admin";
         console.log(data);
-        fetch("http://localhost:5055/makeAdmin", {
+        fetch("https://safe-ocean-09453.herokuapp.com/makeAdmin", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

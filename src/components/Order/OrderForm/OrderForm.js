@@ -12,7 +12,7 @@ const OrderForm = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => {
     console.log(data);
-    const url = `http://localhost:5055/addOrders`;
+    const url = `https://safe-ocean-09453.herokuapp.com/addOrders`;
     fetch(url, {
       method: 'POST',
       headers: {

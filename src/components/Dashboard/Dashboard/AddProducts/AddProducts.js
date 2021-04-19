@@ -31,7 +31,7 @@ const AddProducts = () => {
             status: "pending"
           };
         console.log(data);
-        const url = `http://localhost:5055/addProducts`;
+        const url = `https://safe-ocean-09453.herokuapp.com/addProducts`;
         fetch(url, {
           method: 'POST',
           headers: {
